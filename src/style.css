@@ -1,0 +1,53 @@
+.img{
+    width: 230px;
+    height: 50px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 50px;
+    /* background-color: rgb(53, 48, 48); */
+    position: absolute;
+    width: 100%;
+}
+
+header nav{
+    display: flex;
+}
+
+header nav li{
+    list-style: none;
+    padding: 0 20px;
+}
+
+header nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+/* -- primeira section */
+
+.fundo{
+    background-image: url(img/fundo.png);
+    min-height: 100vh;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.fundo h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.fundo h2{
+    font-size: 2.5rem;
+    color: red;
+}
